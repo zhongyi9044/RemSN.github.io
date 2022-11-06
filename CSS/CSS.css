@@ -1,0 +1,259 @@
+.head {
+  width: 15rem;
+  height: 3.6rem;
+  margin: 0 auto;
+  background-image: url(../upload/head.jpg);
+  background-size: 100% 100%;
+}
+.head .top {
+  display: flex;
+  width: 13.64rem;
+  height: 1.76rem;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.head .top .gengduo {
+  display: block;
+  width: 0.72rem;
+  height: 1.2rem;
+}
+.head .top .gengduo img {
+  display: block;
+  width: 0.72rem;
+  height: 1.2rem;
+}
+.head .top .lianjie {
+  width: 11.4rem;
+  height: 1.76rem;
+}
+.head .top .lianjie img {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  height: 80%;
+  margin-top: 5px;
+}
+.head .top .denglu {
+  width: 0.72rem;
+  height: 1.2rem;
+  text-align: center;
+}
+.head .top .denglu img {
+  display: block;
+  width: 0.72rem;
+  height: 1.2rem;
+}
+.head .search {
+  width: 15rem;
+  height: 1.84rem;
+  padding: 0 0.48rem;
+  overflow: hidden;
+}
+.head .search .searchnav {
+  height: 1.24rem;
+  width: 100%;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  background-color: white;
+  margin-top: 0.3rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.head .search .searchnav .searchtu {
+  width: 0.72rem;
+  height: 0.72rem;
+  background: url(../upload/sousuo.jpg);
+  background-size: 100%;
+  margin-left: 10px;
+}
+.head .search .searchnav input {
+  outline: none;
+  font-size: 0.56rem;
+  color: #999999;
+  text-indent: 0.56rem;
+}
+.main {
+  width: 15rem;
+}
+.main .zhuti {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 15rem;
+  height: 5.07rem;
+}
+.main .zhuti div {
+  flex: 1;
+}
+.main .zhuti div img {
+  width: 100%;
+  height: 100%;
+}
+.main .nav {
+  width: 15rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  background: url(../upload/navb.jpg);
+}
+.main .nav div {
+  flex: 20%;
+  width: 3rem;
+  height: 2.84rem;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.48rem auto 0;
+}
+.main .nav div img {
+  width: 1.68rem;
+  height: 1.68rem;
+}
+.main .tuijian {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 14.04rem;
+  margin: 0 auto;
+}
+.main .tuijian div {
+  flex: 50%;
+  width: 6.84rem;
+  height: 4.2rem;
+  margin-bottom: 0.36rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.main .tuijian div div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 3.42rem;
+  height: 4.2rem;
+  background: url(../upload/beijing.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.main .tuijian div div img {
+  width: 70%;
+  height: 70%;
+  transform: translate(0, 35%);
+}
+.main .tuijian div div span {
+  transform: translate(0, 35%);
+  background: #FFEBEB;
+  color: #FF0000;
+}
+.main .tuijian .sp {
+  background: url(../upload/ttq.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.main .tuijian .sp div {
+  width: 3.08rem;
+  height: 3.08rem;
+  background: none;
+}
+.main .tuijian .sp div img {
+  width: 70%;
+  height: 70%;
+  transform: translate(0, 35%);
+}
+.main .tuijian .sp div span {
+  transform: translate(0, 35%);
+  background: #FFEBEB;
+  color: #FF0000;
+}
+.main .tuijian2 {
+  width: 14.04rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 9px 0;
+}
+.main .tuijian2 div {
+  height: 8.76rem;
+  width: 6.84rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  flex: 100;
+  flex-wrap: wrap;
+}
+.main .tuijian2 div .sd {
+  position: relative;
+  background: url(../upload/beijing2.jpg);
+  background-size: 100% 100%;
+  width: 6.84rem;
+  height: 4.2rem;
+  margin-bottom: 0.36rem;
+}
+.main .tuijian2 div .sd span:nth-of-type(n) {
+  display: block;
+  position: absolute;
+  width: 3.12rem;
+  line-height: 0.96rem;
+  text-align: center;
+  font-size: 0.52rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+.main .tuijian2 div .sd span:nth-of-type(n+3) {
+  position: absolute;
+  display: block;
+  color: #FFFFFF;
+  background: url(../upload/beijing3.jpg) no-repeat;
+  background-size: 100% 100%;
+  font-size: 0.48rem;
+  line-height: 0.56rem;
+  height: 0.8rem;
+  border-style: solid;
+  padding: 0 0.28rem;
+  border-radius: 0.56rem;
+  white-space: nowrap;
+}
+.main .tuijian2 div .sd span:first-of-type {
+  left: 4%;
+}
+.main .tuijian2 div .sd span:nth-of-type(2) {
+  right: 3%;
+}
+.main .tuijian2 div .sd span:nth-of-type(3) {
+  left: 3%;
+  bottom: 5%;
+}
+.main .tuijian2 div .sd span:last-of-type {
+  right: 3.5%;
+  bottom: 5%;
+}
+.main .tuijian2 div .sd img:first-of-type {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin: 0.3rem auto 0;
+  display: block;
+  position: absolute;
+  left: 10%;
+  top: 20%;
+}
+.main .tuijian2 div .sd img:last-of-type {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin: 0.3rem auto 0;
+  display: block;
+  position: absolute;
+  right: 7%;
+  top: 20%;
+}
